@@ -60,7 +60,189 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+h1{
+	font-size: 50px;
+}
+/* 
+SDSdsDDS
+*/
+/* Your code starts here! */
+@keyframes button-hover {
+	from {background-color: gray;
+		  color:white;}
+	to {background-color: white;
+		color: gray;}
+}
+
+@keyframes button-not-hover {
+	from {background-color: white;
+		color: gray;}
+	to {background-color: gray;
+		color:white;}
+}
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	display: block;
+	width: 700px;
+	margin: auto;
+}
+
+#header-placeholder{
+	display: inline-block;
+	width: 700px;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 35px;
+}
+
+header{
+	position: fixed;
+	display: flex;
+    top: 10px;
+	width: 700px;
+	height: 50px;
+	background-color: darkgray;
+	z-index: 1;
+	border-radius: 10px;
+	align-items: center;
+}
+
+header nav a{
+	padding-right: 17px;
+	padding-left: 17px;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	background-color: gray;
+	border-radius: 5px;
+	margin: 0px 5px 0px 5px;
+}
+
+header nav a:hover{
+ 	animation-name: button-hover;
+  	animation-duration: .5s;
+  	animation-fill-mode: forwards;
+}
+
+header nav a:not(:hover){
+	animation-name: button-not-hover;
+	animation-duration: .5s;
+	animation-fill-mode: forwards;
+}
+
+.logo{
+	width: 145px;
+	height: 25px; 
+	background-image: url("../img/logo.png");
+	background-size:145px 25px; 
+}
+
+.header-double{
+	vertical-align: top;
+	display: flex;
+	width: 700px;
+	margin: 15px 0px 50px 0px;
+	font-size: 14px;
+}
+
+.header-double section{
+	width:350px;
+}
+
+#header-img{
+	width: 300px;
+	height: 300px;	
+	background-image: url("../img/header-img.png");
+	background-size:300px 300px;
+}
+
+.header-double button{
+	display: block;
+	margin: auto;
+	margin-top:15px;
+	width: 125px;
+	height: 25px;
+	background-color: white;
+	border-color: black;
+	border-width: 1px;
+	cursor: pointer;
+}
+
+#header-text{
+	padding-top: 45px;
+}
+
+.header-double h1{
+	text-align: center;
+	transform: scale(1.15,1);
+}
+
+hr{
+	border-width: .5px;
+	border-color: black;
+}
+
+.double{
+	display: flex;
+	width: 700px;
+	font-size: 14px;
+}
+.double section{
+	margin: 20px 5px 20px 5px;
+}
+
+h2{
+	font-size: 18px;
+	font-weight: 200%;
+}
+
+.middle-img{
+	width: 700px;
+	height: 130px;
+	background-image: url("../img/mid-page-accent.jpg");
+	background-size: 700px 130px;
+}
+
+.triple{
+	display: flex;
+	width: 700px;
+	font-size: 14px;
+}
+
+.triple section{
+	margin: 20px 5px 20px 5px;
+}
+
+footer{
+	margin-top: 30px;
+}
+
+footer address{
+	margin-top: 15px;
+	width: 140px;
+	font-size: 14px;
+}
+
+footer p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 140px;
+	font-size: 14px;
+}
+
+#copyright{
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	width: 400px;
+	height: 200px;
+	margin: auto;
+	margin-top: 50px;
+}
