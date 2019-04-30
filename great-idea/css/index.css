@@ -113,6 +113,9 @@ header{
 	align-items: center;
 }
 
+header nav{
+	width: 570px;
+}
 header nav a{
 	padding-right: 17px;
 	padding-left: 17px;
@@ -137,10 +140,10 @@ header nav a:not(:hover){
 }
 
 .logo{
-	width: 145px;
-	height: 25px; 
+	width: 120px;
+	height: 20px; 
 	background-image: url("../img/logo.png");
-	background-size:145px 25px; 
+	background-size: 120px 20px; 
 }
 
 .header-double{
