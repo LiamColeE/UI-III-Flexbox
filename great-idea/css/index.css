@@ -294,3 +294,18 @@ footer p{
 	border-color: black;
 	border-width: 1px;
 }
+
+ul{
+	padding-top: 15px;
+	padding-left: 15px;
+	list-style-type:circle;
+}
+
+.double .services-info-img{
+	width: 330px;
+	margin-top: 10px;
+}
+
+li{
+	padding-bottom: 10px;
+}
