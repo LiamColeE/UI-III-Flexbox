@@ -259,6 +259,8 @@ footer p{
 	Servive Page CSS
 */
 
+
+
 .services-header-img{
 	width: 700px;
 }
@@ -312,4 +314,27 @@ ul{
 
 li{
 	padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	body{
+		width: 100vw;
+	}
+
+	.double{
+		width: 100vw;
+		justify-content: center;
+	}
+
+	.services-intro{
+		width: 100vw;
+	}
+
+	.services-header-img{
+		width: 100vw;
+	}
+
+	header{
+		width: 100vw;
+	}
 }
