@@ -125,7 +125,7 @@ header nav a{
 	font-size: 14px;
 	background-color: gray;
 	border-radius: 5px;
-	margin: 0px 5px 0px 5px;
+	margin: 5px 5px 5px 5px;
 }
 
 header nav a:hover{
@@ -220,12 +220,15 @@ h2{
 
 .triple{
 	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 	width: 700px;
 	font-size: 14px;
 }
 
 .triple section{
 	margin: 20px 5px 20px 5px;
+	width: 220px;
 }
 
 footer{
@@ -325,6 +328,14 @@ li{
 		width: 100vw;
 		justify-content: center;
 	}
+	.triple{
+		width: 100vw;
+		justify-content: center;
+	}
+
+	.triple section{
+		width: 340px;
+	}
 
 	.services-intro{
 		width: 100vw;
@@ -336,5 +347,10 @@ li{
 
 	header{
 		width: 100vw;
+	}
+
+	.middle-img{
+		width:100vw;
+
 	}
 }
